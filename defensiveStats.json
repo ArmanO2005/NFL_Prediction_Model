@@ -1,0 +1,23 @@
+[
+    "fumblesForced",
+    "fumblesRecovered",
+    "fumblesTouchdowns",
+    "interceptions",
+    "sacks",
+    "sackYardsLost",
+    "soloTackles",
+    "assistTackles",
+    "totalTackles",
+    "sackYards",
+    "tacklesForLoss",
+    "passesDefended",
+    "longInterception",
+    "interceptionYards",
+    "punts",
+    "puntYards",
+    "longPunt",
+    "grossAvgPuntYards",
+    "netAvgPuntYards",
+    "puntsBlocked",
+    "puntsInside20"
+]
