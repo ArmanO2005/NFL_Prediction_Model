@@ -52,6 +52,34 @@ def NFL_Get_Scores(season=2024):
 
     return pd.DataFrame(rows, columns=titles)
 
+# Only works if games that week have not happened yet. Use NFL_Get_Score for past pairings
+def NFL_Get_Games(week, season=2024):
+    titles = ['awayTeam', 'homeTeam']
+
+    rows = []
+    url = (f"https://www.espn.com/nfl/scoreboard/_/week/{week}/year/{season}/seasontype/2")
+    response = requests.get(url, headers=headers)
+
+    if response.status_code != 200:
+        print(response.status_code)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+    html = soup.prettify()
+    names = re.findall(r'"game_detail":"\d+\s(.*?)"}', html, flags=re.DOTALL)
+
+
+    for i in range(len(names)):
+        row = []
+        row.append(names[i].split(" vs ")[0])
+        row.append(names[i].split(" vs ")[1])
+
+        for i in range(len(row)):
+            row[i] = row[i].strip()
+        
+        rows.append(row)
+
+    return pd.DataFrame(rows, columns=titles)
+
 
 def NFL_All_Player_Stats():
     url = (f"https://site.web.api.espn.com/apis/common/v3/sports/football/nfl/statistics/byathlete?region=us&lang=en&contentorigin=espn&isqualified=false&page=0&limit=10")
@@ -64,8 +92,13 @@ def NFL_All_Player_Stats():
     statsTotal = json.loads(soupTotal.prettify())
 
     rowTitles = ['name', 'team', 'position']
+    count = set()
     for i in statsTotal['categories']:
-        rowTitles += i['names']
+        if i['names'][0] not in count:
+            rowTitles += i['names']
+        else:
+            rowTitles += i['names'] + '_def'
+        count.add(i['names'][0])
 
     check = set()
     rows = []
@@ -104,8 +137,8 @@ def NFL_All_Player_Stats():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-def NFL_Offensive():
-    url = "https://www.espn.com/nfl/stats/team"
+def NFL_Offensive(season=2024):
+    url = (f"https://www.espn.com/nfl/stats/team/_/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -131,8 +164,8 @@ def NFL_Offensive():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-def NFL_Defensive():
-    url = "https://www.espn.com/nfl/stats/team/_/view/defense"
+def NFL_Defensive(season=2024):
+    url = (f"https://www.espn.com/nfl/stats/team/_/view/defense/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -158,8 +191,8 @@ def NFL_Defensive():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-def NFL_SpecialTeams():
-    url = "https://www.espn.com/nfl/stats/team/_/view/special"
+def NFL_SpecialTeams(season=2024):
+    url = (f"https://www.espn.com/nfl/stats/team/_/view/special/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -186,7 +219,7 @@ def NFL_SpecialTeams():
 
 
 def NFL_Turnovers():
-    url = "https://www.espn.com/nfl/stats/team/_/view/turnovers"
+    url = (f"https://www.espn.com/nfl/stats/team/_/view/turnovers/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
     if response.status_code != 200:
@@ -212,9 +245,5 @@ def NFL_Turnovers():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-
-
-with open("output.txt", 'w', encoding="utf-8") as f:
-    for i in NFL_All_Player_Stats().columns:
-        f.write(i + '\n')
-
+# with open("output.txt", 'w', encoding="utf-8") as f:
+#     f.write(str(soup.prettify()))
