@@ -67,11 +67,10 @@ def NFL_Get_Games(week, season=2024):
     html = soup.prettify()
     names = re.findall(r'"game_detail":"\d+\s(.*?)"}', html, flags=re.DOTALL)
 
-
     for i in range(len(names)):
         row = []
-        row.append(names[i].split(" vs ")[0])
-        row.append(names[i].split(" vs ")[1])
+        row.append(names[i].split(" vs ")[0].split()[-1])
+        row.append(names[i].split(" vs ")[1].split()[-1])
 
         for i in range(len(row)):
             row[i] = row[i].strip()
@@ -156,7 +155,10 @@ def NFL_Offensive(season=2024):
     rows = []
     for num, i in enumerate(stats['teamStats']):
         row = []
-        row.append(i['team']['displayName'])
+        if i['team']['shortDisplayName'] != 'Redskins':
+            row.append(i['team']['shortDisplayName'])
+        else:
+            row.append('Commanders')
         for j in i['stats']:
             row.append(j['value'])
         rows.append(row)
@@ -183,7 +185,10 @@ def NFL_Defensive(season=2024):
     rows = []
     for num, i in enumerate(stats['teamStats']):
         row = []
-        row.append(i['team']['displayName'])
+        if i['team']['shortDisplayName'] != 'Redskins':
+            row.append(i['team']['shortDisplayName'])
+        else:
+            row.append('Commanders')
         for j in i['stats']:
             row.append(j['value'])
         rows.append(row)
@@ -210,7 +215,10 @@ def NFL_SpecialTeams(season=2024):
     rows = []
     for num, i in enumerate(stats['teamStats']):
         row = []
-        row.append(i['team']['displayName'])
+        if i['team']['shortDisplayName'] != 'Redskins':
+            row.append(i['team']['shortDisplayName'])
+        else:
+            row.append('Commanders')
         for j in i['stats']:
             row.append(j['value'])
         rows.append(row)
@@ -218,7 +226,7 @@ def NFL_SpecialTeams(season=2024):
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-def NFL_Turnovers():
+def NFL_Turnovers(season=2024):
     url = (f"https://www.espn.com/nfl/stats/team/_/view/turnovers/season/{season}/seasontype/2")
 
     response = requests.get(url, headers=headers)
@@ -237,7 +245,10 @@ def NFL_Turnovers():
     rows = []
     for num, i in enumerate(stats['teamStats']):
         row = []
-        row.append(i['team']['displayName'])
+        if i['team']['shortDisplayName'] != 'Redskins':
+            row.append(i['team']['shortDisplayName'])
+        else:
+            row.append('Commanders')
         for j in i['stats']:
             row.append(j['value'])
         rows.append(row)
@@ -245,5 +256,61 @@ def NFL_Turnovers():
     return pd.DataFrame(rows, columns=rowTitles)
 
 
-# with open("output.txt", 'w', encoding="utf-8") as f:
-#     f.write(str(soup.prettify()))
+def NFL_Power_Index(season=2024):
+    url = (f"https://www.espn.com/nfl/fpi/_/season/{season}")
+
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print(response.status_code)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    stats = re.search(r'"}]},("stats":\[.*?\]),"statics"', soup.prettify())
+    stats = json.loads('{' + stats[1] + '}')
+
+    rowTitles = ['displayName']
+    for j in stats['stats'][0]['stats']:
+        rowTitles.append(j['name'])
+
+    rows = []
+    for num, i in enumerate(stats['stats']):
+        row = []
+        if i['team']['shortDisplayName'] != 'Redskins':
+            row.append(i['team']['shortDisplayName'])
+        else:
+            row.append('Commanders')
+        for j in i['stats']:
+            row.append(j['value'])
+        rows.append(row)
+
+    return pd.DataFrame(rows, columns=rowTitles)
+
+
+def NFL_Efficiencies(season=2024):
+    url = (f"https://www.espn.com/nfl/fpi/_/view/efficiencies/season/{season}")
+
+    response = requests.get(url, headers=headers)
+    if response.status_code != 200:
+        print(response.status_code)
+
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    stats = re.search(r'"}]},("stats":\[.*?\]),"statics"', soup.prettify())
+    stats = json.loads('{' + stats[1] + '}')
+
+    rowTitles = ['displayName']
+    for j in stats['stats'][0]['stats']:
+        rowTitles.append(j['name'])
+
+    rows = []
+    for num, i in enumerate(stats['stats']):
+        row = []
+        if i['team']['shortDisplayName'] != 'Redskins':
+            row.append(i['team']['shortDisplayName'])
+        else:
+            row.append('Commanders')
+        for j in i['stats']:
+            row.append(j['value'])
+        rows.append(row)
+
+    return pd.DataFrame(rows, columns=rowTitles)

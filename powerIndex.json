@@ -1,0 +1,1860 @@
+{
+    "stats": [
+        {
+            "team": {
+                "id": "25",
+                "abbrev": "SF",
+                "displayName": "San Francisco 49ers",
+                "shortDisplayName": "49ers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+                "uid": "s:20~l:28~t:25",
+                "guid": "985a261f-296c-c95c-32a5-addc4df75001",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "49ers",
+                "links": "/nfl/team/_/name/sf/san-francisco-49ers"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "14-6-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "10.0"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "1"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "8.6"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "1.6"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.2"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "7"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "33",
+                "abbrev": "BAL",
+                "displayName": "Baltimore Ravens",
+                "shortDisplayName": "Ravens",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+                "uid": "s:20~l:28~t:33",
+                "guid": "38248455-3da4-84e4-8090-98b5cc38ffdc",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Ravens",
+                "links": "/nfl/team/_/name/bal/baltimore-ravens"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "14-5-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "9.9"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "2"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "4.3"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "5.2"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.4"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "20"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "1"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "2",
+                "abbrev": "BUF",
+                "displayName": "Buffalo Bills",
+                "shortDisplayName": "Bills",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+                "uid": "s:20~l:28~t:2",
+                "guid": "232afaf2-01ac-fcc2-8bd6-66550df1703a",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Bills",
+                "links": "/nfl/team/_/name/buf/buffalo-bills"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "12-7-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "8.9"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "3"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "7.8"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "0.8"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.2"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "27"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "6",
+                "abbrev": "DAL",
+                "displayName": "Dallas Cowboys",
+                "shortDisplayName": "Cowboys",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+                "uid": "s:20~l:28~t:6",
+                "guid": "b0fc8fb7-9dbe-e574-9008-6f0ee7c6b234",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Cowboys",
+                "links": "/nfl/team/_/name/dal/dallas-cowboys"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "12-6-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "8.4"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "4"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "6.6"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "1.7"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.0"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "28"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "12",
+                "abbrev": "KC",
+                "displayName": "Kansas City Chiefs",
+                "shortDisplayName": "Chiefs",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+                "uid": "s:20~l:28~t:12",
+                "guid": "f68f2343-8ceb-7a02-740d-af6338be21d2",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Chiefs",
+                "links": "/nfl/team/_/name/kc/kansas-city-chiefs"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "15-6-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "7.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "5"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "4.6"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "2.9"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "2"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "15",
+                "abbrev": "MIA",
+                "displayName": "Miami Dolphins",
+                "shortDisplayName": "Dolphins",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+                "uid": "s:20~l:28~t:15",
+                "guid": "af33088b-1e19-d27d-dbc0-354fd7151703",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Dolphins",
+                "links": "/nfl/team/_/name/mia/miami-dolphins"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "11-7-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "5.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "6"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "6.1"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-0.4"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "25"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "7"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "8",
+                "abbrev": "DET",
+                "displayName": "Detroit Lions",
+                "shortDisplayName": "Lions",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+                "uid": "s:20~l:28~t:8",
+                "guid": "56caffee-178d-f6f2-a076-b277486b8c32",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Lions",
+                "links": "/nfl/team/_/name/det/detroit-lions"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "14-6-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "3.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "7"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "5.6"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-2.3"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.4"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "9"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "4"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "14",
+                "abbrev": "LAR",
+                "displayName": "Los Angeles Rams",
+                "shortDisplayName": "Rams",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+                "uid": "s:20~l:28~t:14",
+                "guid": "2e1473b2-e269-fd7a-1137-c1edacb85986",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Rams",
+                "links": "/nfl/team/_/name/lar/los-angeles-rams"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "10-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "3.5"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "8"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "4.7"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-0.8"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.5"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "5"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "12"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "9",
+                "abbrev": "GB",
+                "displayName": "Green Bay Packers",
+                "shortDisplayName": "Packers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+                "uid": "s:20~l:28~t:9",
+                "guid": "06cd3bcf-7a86-53d4-28e7-aa049dd36261",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Packers",
+                "links": "/nfl/team/_/name/gb/green-bay-packers"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "10-9-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "2.3"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "9"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "3.5"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-0.9"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.3"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "12"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "8"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "18",
+                "abbrev": "NO",
+                "displayName": "New Orleans Saints",
+                "shortDisplayName": "Saints",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+                "uid": "s:20~l:28~t:18",
+                "guid": "97d2f6c9-2f22-459c-306a-046941ccab2a",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Saints",
+                "links": "/nfl/team/_/name/no/new-orleans-saints"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "9-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "2.1"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "10"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "1.8"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "0.5"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.2"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "31"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "14"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "21",
+                "abbrev": "PHI",
+                "displayName": "Philadelphia Eagles",
+                "shortDisplayName": "Eagles",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+                "uid": "s:20~l:28~t:21",
+                "guid": "d1a9b001-1df7-fbd7-ae4c-6ca7065286ec",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Eagles",
+                "links": "/nfl/team/_/name/phi/philadelphia-eagles"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "11-7-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "2.0"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "11"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "4.5"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-2.8"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.4"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "13"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "9"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "30",
+                "abbrev": "JAX",
+                "displayName": "Jacksonville Jaguars",
+                "shortDisplayName": "Jaguars",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+                "uid": "s:20~l:28~t:30",
+                "guid": "ca6fb778-cbf6-d9a3-3e93-01230335fcab",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Jaguars",
+                "links": "/nfl/team/_/name/jax/jacksonville-jaguars"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "9-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "1.9"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "12"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "0.4"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "1.5"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "17"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "11"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "26",
+                "abbrev": "SEA",
+                "displayName": "Seattle Seahawks",
+                "shortDisplayName": "Seahawks",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+                "uid": "s:20~l:28~t:26",
+                "guid": "3767a23c-a17d-294f-288a-9086ad1f0680",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Seahawks",
+                "links": "/nfl/team/_/name/sea/seattle-seahawks"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "9-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "0.9"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "13"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "3.3"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-2.4"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.0"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "4"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "23"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "27",
+                "abbrev": "TB",
+                "displayName": "Tampa Bay Buccaneers",
+                "shortDisplayName": "Buccaneers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+                "uid": "s:20~l:28~t:27",
+                "guid": "13e8b157-a75a-ff24-ae91-fa3d52ddf204",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Buccaneers",
+                "links": "/nfl/team/_/name/tb/tampa-bay-buccaneers"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "10-9-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "0.0"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "14"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "0.3"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "18"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "16"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "4",
+                "abbrev": "CIN",
+                "displayName": "Cincinnati Bengals",
+                "shortDisplayName": "Bengals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+                "uid": "s:20~l:28~t:4",
+                "guid": "75b8623b-8926-b411-0476-3d3602b78523",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Bengals",
+                "links": "/nfl/team/_/name/cin/cincinnati-bengals"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "9-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "15"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "0.7"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-1.0"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.3"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "3"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "17"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "10",
+                "abbrev": "TEN",
+                "displayName": "Tennessee Titans",
+                "shortDisplayName": "Titans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+                "uid": "s:20~l:28~t:10",
+                "guid": "0a0aea59-9a5e-01b3-57a3-0151cf4bf393",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Titans",
+                "links": "/nfl/team/_/name/ten/tennessee-titans"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "6-11-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-0.3"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "16"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "1.0"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-1.4"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "22"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "22"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "34",
+                "abbrev": "HOU",
+                "displayName": "Houston Texans",
+                "shortDisplayName": "Texans",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+                "uid": "s:20~l:28~t:34",
+                "guid": "595690b3-2161-4913-a7a7-814af2fd2621",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Texans",
+                "links": "/nfl/team/_/name/hou/houston-texans"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "11-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-0.8"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "17"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "0.2"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-1.4"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.4"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "29"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "13"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "5",
+                "abbrev": "CLE",
+                "displayName": "Cleveland Browns",
+                "shortDisplayName": "Browns",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+                "uid": "s:20~l:28~t:5",
+                "guid": "539babc5-e5fb-753b-8ae1-c15032a91ef4",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Browns",
+                "links": "/nfl/team/_/name/cle/cleveland-browns"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "11-7-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-0.9"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "18"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-4.9"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "3.7"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.3"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "15"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "15"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "3",
+                "abbrev": "CHI",
+                "displayName": "Chicago Bears",
+                "shortDisplayName": "Bears",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+                "uid": "s:20~l:28~t:3",
+                "guid": "19d73366-b5a5-cca2-a176-a2c024ce0bb3",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Bears",
+                "links": "/nfl/team/_/name/chi/chicago-bears"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "7-10-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-1.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "19"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-1.7"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "0.2"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.0"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "26"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "23",
+                "abbrev": "PIT",
+                "displayName": "Pittsburgh Steelers",
+                "shortDisplayName": "Steelers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+                "uid": "s:20~l:28~t:23",
+                "guid": "debcd592-8d53-71f1-fc15-5c8b8ef9df6e",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Steelers",
+                "links": "/nfl/team/_/name/pit/pittsburgh-steelers"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "10-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-2.0"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "20"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-3.1"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "1.2"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "6"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "26"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "11",
+                "abbrev": "IND",
+                "displayName": "Indianapolis Colts",
+                "shortDisplayName": "Colts",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+                "uid": "s:20~l:28~t:11",
+                "guid": "582d14eb-da61-e505-cc40-d972a1b60ed1",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Colts",
+                "links": "/nfl/team/_/name/ind/indianapolis-colts"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "9-8-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-2.1"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "21"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-0.7"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-1.3"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "30"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "18"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "13",
+                "abbrev": "LV",
+                "displayName": "Las Vegas Raiders",
+                "shortDisplayName": "Raiders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+                "uid": "s:20~l:28~t:13",
+                "guid": "b18540eb-6f2b-534c-e7f9-9bd930518da9",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Raiders",
+                "links": "/nfl/team/_/name/lv/las-vegas-raiders"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "8-9-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-2.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "22"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-3.0"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "0.2"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.2"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "23"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "20"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "16",
+                "abbrev": "MIN",
+                "displayName": "Minnesota Vikings",
+                "shortDisplayName": "Vikings",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+                "uid": "s:20~l:28~t:16",
+                "guid": "3db556c9-ed76-a7a5-4ccb-a92fc6db4334",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Vikings",
+                "links": "/nfl/team/_/name/min/minnesota-vikings"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "7-10-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-2.8"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "23"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-2.3"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-0.4"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.2"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "10"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "19"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "1",
+                "abbrev": "ATL",
+                "displayName": "Atlanta Falcons",
+                "shortDisplayName": "Falcons",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+                "uid": "s:20~l:28~t:1",
+                "guid": "49fd392a-86fe-4df3-1b77-9bbfa18b2ad5",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Falcons",
+                "links": "/nfl/team/_/name/atl/atlanta-falcons"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "7-10-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-3.5"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "24"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-3.4"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.0"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "32"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "25"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "24",
+                "abbrev": "LAC",
+                "displayName": "Los Angeles Chargers",
+                "shortDisplayName": "Chargers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+                "uid": "s:20~l:28~t:24",
+                "guid": "84caf62b-c753-71ea-a787-44fd224a4294",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Chargers",
+                "links": "/nfl/team/_/name/lac/los-angeles-chargers"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "5-12-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-3.8"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "25"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-2.4"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-1.5"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.0"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "11"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "21"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "22",
+                "abbrev": "ARI",
+                "displayName": "Arizona Cardinals",
+                "shortDisplayName": "Cardinals",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+                "uid": "s:20~l:28~t:22",
+                "guid": "8fc7b962-95e1-3cb8-6a7d-b499de9ad546",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Cardinals",
+                "links": "/nfl/team/_/name/ari/arizona-cardinals"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "4-13-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-4.3"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "26"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-0.2"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-4.1"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.0"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "1"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "27"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "7",
+                "abbrev": "DEN",
+                "displayName": "Denver Broncos",
+                "shortDisplayName": "Broncos",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+                "uid": "s:20~l:28~t:7",
+                "guid": "51042145-e3c1-0694-ae0d-f720342ff8fc",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Broncos",
+                "links": "/nfl/team/_/name/den/denver-broncos"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "8-9-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-4.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "27"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-3.3"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-1.2"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.2"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "24"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "24"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "20",
+                "abbrev": "NYJ",
+                "displayName": "New York Jets",
+                "shortDisplayName": "Jets",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+                "uid": "s:20~l:28~t:20",
+                "guid": "732d3caf-b350-1e34-48c6-b7cebb4a0d88",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Jets",
+                "links": "/nfl/team/_/name/nyj/new-york-jets"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "7-10-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-6.3"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "28"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-10.6"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "4.4"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.1"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "21"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "30"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "17",
+                "abbrev": "NE",
+                "displayName": "New England Patriots",
+                "shortDisplayName": "Patriots",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+                "uid": "s:20~l:28~t:17",
+                "guid": "0078f353-fe3e-67ed-a42c-43cca0568e21",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Patriots",
+                "links": "/nfl/team/_/name/ne/new-england-patriots"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "4-13-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-6.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "29"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-9.2"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "2.9"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.3"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "14"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "28"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "28",
+                "abbrev": "WSH",
+                "displayName": "Washington Commanders",
+                "shortDisplayName": "Commanders",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+                "uid": "s:20~l:28~t:28",
+                "guid": "fbeaf73e-6d6c-cca4-0809-713d9d741f90",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Commanders",
+                "links": "/nfl/team/_/name/wsh/washington-commanders"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "4-13-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-6.7"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "30"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-3.1"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-3.3"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.3"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "19"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "31"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "19",
+                "abbrev": "NYG",
+                "displayName": "New York Giants",
+                "shortDisplayName": "Giants",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+                "uid": "s:20~l:28~t:19",
+                "guid": "378600ea-2397-8364-8399-b7c1606a49a7",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Giants",
+                "links": "/nfl/team/_/name/nyg/new-york-giants"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "6-11-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-8.6"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "31"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-8.2"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-0.3"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "-0.2"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "8"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "29"
+                }
+            ]
+        },
+        {
+            "team": {
+                "id": "29",
+                "abbrev": "CAR",
+                "displayName": "Carolina Panthers",
+                "shortDisplayName": "Panthers",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+                "uid": "s:20~l:28~t:29",
+                "guid": "647c27bf-ab86-550e-5b83-91c29e73e4a9",
+                "recordSummary": "",
+                "standingSummary": "",
+                "nickname": "Panthers",
+                "links": "/nfl/team/_/name/car/carolina-panthers"
+            },
+            "stats": [
+                {
+                    "name": "numwins",
+                    "value": "2-15-0"
+                },
+                {
+                    "name": "fpi",
+                    "value": "-8.9"
+                },
+                {
+                    "name": "fpirank",
+                    "value": "32"
+                },
+                {
+                    "name": "rankchange7days",
+                    "value": "0",
+                    "isTrend": true
+                },
+                {
+                    "name": "epaoffense",
+                    "value": "-7.3"
+                },
+                {
+                    "name": "epadefense",
+                    "value": "-1.6"
+                },
+                {
+                    "name": "epaspecialteams",
+                    "value": "0.0"
+                },
+                {
+                    "name": "avgsosrank",
+                    "value": "16"
+                },
+                {
+                    "name": "sosremainingrank",
+                    "value": "--"
+                },
+                {
+                    "name": "avgingamewprank",
+                    "value": "32"
+                }
+            ]
+        }
+    ]
+}
