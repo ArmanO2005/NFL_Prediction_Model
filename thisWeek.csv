@@ -1,17 +1,17 @@
-awayTeam,homeTeam,predictions
-Browns,Ravens,[-18.31956052]
-Bengals,Steelers,[-2.11656871]
-Panthers,Falcons,[-11.08050646]
-Commanders,Cowboys,[9.49170728]
-Bears,Packers,[-13.33558557]
-Texans,Titans,[5.8601126]
-Jaguars,Colts,[-4.92220718]
-Bills,Patriots,[16.42937027]
-Giants,Eagles,[-18.31995933]
-Saints,Buccaneers,[-11.32159413]
-Chiefs,Broncos,[-0.49234787]
-Chargers,Raiders,[8.1067497]
-Seahawks,Rams,[-1.30088616]
-Dolphins,Jets,[1.53404802]
-49ers,Cardinals,[-2.52947994]
-Vikings,Lions,[-6.1078662]
+awayTeam,homeTeam,predictions,,Vegas,
+Browns,Ravens,[-18.31956052],,-17.5,
+Bengals,Steelers,[-2.11656871],,1.5,
+Panthers,Falcons,[-11.08050646],,-8.5,
+Commanders,Cowboys,[9.49170728],,4,
+Bears,Packers,[-13.33558557],,-10,
+Texans,Titans,[5.8601126],,-1,
+Jaguars,Colts,[-4.92220718],,-5,
+Bills,Patriots,[16.42937027],,3,
+Giants,Eagles,[-18.31995933],,-3,
+Saints,Buccaneers,[-11.32159413],,-13.5,
+Chiefs,Broncos,[-0.49234787],,-10,*probably because KC is not playing starters
+Chargers,Raiders,[8.1067497],,5.5,
+Seahawks,Rams,[-1.30088616],,6.5,*previously -2.5 until LA pulled starting qb
+Dolphins,Jets,[1.53404802],,1.5,
+49ers,Cardinals,[-2.52947994],,-4,
+Vikings,Lions,[-6.1078662],,-2.5,

@@ -50,7 +50,9 @@ def NFL_Get_Scores(season=2024):
         
         w += 1
 
-    return pd.DataFrame(rows, columns=titles)
+    output = pd.DataFrame(rows, columns=titles)
+    output['season'] = season
+    return output
 
 # Only works if games that week have not happened yet. Use NFL_Get_Score for past pairings
 def NFL_Get_Games(week, season=2024):
